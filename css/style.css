@@ -8,9 +8,9 @@ html {
   
 }
 
-body {
+body {background-color: rgba(226, 43, 137, 0.546);
   
-}
+}Color: #e8e8e8
 
 
 /* Typography */ 
@@ -41,3 +41,33 @@ p {
 a {
 
 }
+
+
+#nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+
+#nav li {
+    display: inline-block;
+font-size: 24px;
+margin-right: 40px;
+line-height: 60px;
+}
+
+#nav li:hover {
+    color: rgba(0, 208, 255, 0.83);
+    transition-duration: 0.5s;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+ 
+
+
+
+  
+
+
